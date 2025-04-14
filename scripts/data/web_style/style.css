@@ -1,0 +1,128 @@
+.gr-tab-item {
+    background-color: #e6f7ff; /* 浅蓝色背景 */
+    padding: 20px; /* 内边距，让内容不贴边 */
+    border-radius: 8px; /* 可选，圆角边框 */
+}
+
+.gr-tab-item-frags {
+    background-color: #f3f0fc; /* 浅紫色背景 */
+    padding: 20px; /* 内边距，让内容不贴边 */
+    border-radius: 8px; /* 可选，圆角边框 */
+}
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-box, .dropdown-box, .image-box {
+    width: 100%;
+    /*margin-bottom: 15px;*/
+}
+
+.blue-gradient-button {
+    background: linear-gradient(180deg, #0D92F4, #77CDFF); /* 从深蓝到浅蓝渐变 */
+    color: white; /* 按钮文字颜色为白色 */
+    border: none; /* 去掉边框 */
+    padding: 10px 20px; /* 调整内边距 */
+    border-radius: 5px; /* 圆角按钮 */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.blue-gradient-button:hover {
+    background: linear-gradient(180deg, #77CDFF, #0D92F4); /* 反转渐变方向 */
+}
+
+.blue-gradient-button:focus {
+    box-shadow: 0 0 8px 4px rgba(13, 146, 244, 0.5); /* 更协调的蓝色阴影 */
+    transform: scale(1.05); /* 轻微放大效果 */
+}
+
+.purple-gradient-button {
+    background: linear-gradient(180deg, #9b7cc4, #6a4c9c); /* 从浅紫到深紫渐变 */
+    color: white;  /* 按钮文字颜色为白色 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.purple-gradient-button:hover {
+    background: linear-gradient(180deg, #6a4c9c, #9b7cc4); /* 反转渐变方向 */
+}
+
+.purple-gradient-button:focus {
+    box-shadow: 0 0 8px 4px rgba(106, 76, 156, 0.5); /* 更协调的紫色阴影 */
+    transform: scale(1.05); /* 轻微放大效果 */
+}
+
+
+.brick_slider_container .brick_search_slider {
+    flex: 1; /* 设置每个 slider 的比例 */
+}
+
+.result_table {
+    font-family: "Times New Roman", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    /*max-height: 300px;    !* 设置表格的最大高度 *!*/
+    overflow-y: auto;     /* 启用垂直滚动条 */
+    overflow-x: auto;     /* 启用水平滚动条 */
+    display: inline-block;/* 确保横向滚动条可见 */
+    white-space: nowrap;  /* 防止表格内容自动换行 */
+}
+
+.result_table td, .result_table th {
+    border: 1px solid #b0c4de;
+    padding: 8px;
+}
+
+.result_table tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
+
+.result_table tr:hover {
+    background-color: #b0c4de;
+}
+
+.result_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4682b4;
+    color: white;
+}
+
+.frag_result_table {
+    font-family: "Times New Roman", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-y: auto;     /* 启用垂直滚动条 */
+    overflow-x: auto;     /* 启用水平滚动条 */
+    display: inline-block;/* 确保横向滚动条可见 */
+    white-space: nowrap;  /* 防止表格内容自动换行 */
+}
+
+.frag_result_table td, .frag_result_table th {
+    border: 1px solid #b9aedc; /* 边框颜色改为柔和的紫色 */
+    padding: 8px;
+}
+
+.frag_result_table tr:nth-child(even) {
+    background-color: #f3f0fc; /* 偶数行背景使用淡紫色 */
+}
+
+.frag_result_table tr:hover {
+    background-color: #d6c7f0; /* 鼠标悬停时更深的紫色背景 */
+}
+
+.frag_result_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #9b7cc4; /* 表头背景使用较深的紫色 */
+    color: white; /* 表头文字颜色为白色 */
+}
