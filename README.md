@@ -4,12 +4,12 @@
 
 ## 📚Content
 
-- [Overview](#Overview)
-- [Software Requirements](#Software Requirements)
-- [Installation Guide](#Installation Guide)
-- [Data](#Data)
-- [SpaceGen](#SpaceGen Module)
-- [SpaceGen(ligand)](#SpaceGen (Ligand Module))
+- [Overview](#overview)
+- [Software Requirements](#software-requirements)
+- [Installation Guide](#installation-guide)
+- [Data](#data)
+- [SpaceGen](#spacegen)
+- [SpaceGen (Ligand Module)](#spacegen-ligand-module)
 
 ## 🚀Overview
 
