@@ -8,8 +8,8 @@
 - [Software Requirements](#Software Requirements)
 - [Installation Guide](#Installation Guide)
 - [Data](#Data)
-- [SpaceGen](#SpaceGen)
-- [SpaceGen(ligand)](#SpaceGen(ligand))
+- [SpaceGen](#SpaceGen Module)
+- [SpaceGen(ligand)](#SpaceGen (Ligand Module))
 
 ## 🚀Overview
 
