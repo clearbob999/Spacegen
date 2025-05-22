@@ -159,7 +159,7 @@ You can also explore ligand fragmentation and matched building blocks visually u
 python gradio.py
 ```
 
-![gradio界面](/figuress/gradio_interface.png)
+![gradio界面](/figures/gradio_interface.png)
 
 ## License
 
