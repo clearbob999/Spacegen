@@ -1,6 +1,6 @@
 # 🧬SpaceGen: Dynamic Chemical Space Exploration Accelerates Drug Design via Reinforcement Learning and Assembly Optimization
 
-![模型总括图](F:/yanerxia/typora/images/%E6%A8%A1%E5%9E%8B%E6%80%BB%E6%8B%AC%E5%9B%BE.png)
+![模型总括图](/figures/model.png)
 
 ## 📚Content
 
@@ -159,7 +159,7 @@ You can also explore ligand fragmentation and matched building blocks visually u
 python gradio.py
 ```
 
-![gradio界面](F:/yanerxia/typora/images/gradio%E7%95%8C%E9%9D%A2.png)
+![gradio界面](/figuress/gradio_interface.png)
 
 ## License
 
